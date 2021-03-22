@@ -9,9 +9,13 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Home - Tabela Price</title>
     </head>
-    <body>
-        <h1>Hello World!</h1>
+        <body style="color: gray; text-align:center">
+        <div>
+            <h2 style="color: gray">Jane Fernanda Martins</h2>
+            <h5 style="color: gray">RA: 1290481812013</h5>
+
+        </div>
     </body>
 </html>
