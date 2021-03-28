@@ -21,7 +21,7 @@
         <nav id="menu">
             <%@include file="WEB-INF/jspf/menu.jspf" %>
         </nav>
-        
+
         <div>
             <br><br><br>
             <h2 style="color: gray">Jane Fernanda Martins</h2>
