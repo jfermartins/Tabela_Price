@@ -17,9 +17,16 @@
         <title>Home - Tabela Price</title>
     </head>
     <body style="color: gray; text-align:center">
+
+        <nav id="menu">
+            <%@include file="WEB-INF/jspf/menu.jspf" %>
+        </nav>
+        
         <div>
+            <br><br><br>
             <h2 style="color: gray">Jane Fernanda Martins</h2>
             <h5 style="color: gray">RA: 1290481812013</h5>
+            <br><br><br>
 
         </div>
 
