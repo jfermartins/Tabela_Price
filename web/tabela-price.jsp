@@ -82,9 +82,14 @@
                             %>
 
 
-                    <tr><th><%= count%></th><td><%= df.format(val)%></td><td><%= df.format(pmt)%></td><td><%=  df.format(juros)%></td><td><%=  df.format(pmt - juros)%></td></tr>
+                    <tr>
+                        <th><%= count%></th>
+                        <td><%= df.format(val)%></td>
+                        <td><%= df.format(pmt)%></td>
+                        <td><%=  df.format(juros)%></td>
+                        <td><%=  df.format(pmt - juros)%></td>
+                    </tr>
                             <% }%> 
-
 
                 </table>
                 <br>
