@@ -89,7 +89,7 @@
                         <td><%=  df.format(juros)%></td>
                         <td><%=  df.format(pmt - juros)%></td>
                     </tr>
-                            <% }%> 
+                    <% }%> 
 
                 </table>
                 <br>
@@ -97,7 +97,7 @@
                     <%
                         DecimalFormat df = new DecimalFormat("#,##0.00");
                     %>
-                    
+
                     <h3>Resultados</h3>
 
                     <form>
@@ -114,7 +114,7 @@
                                 <label  class="col-sm-5 col-form-label">Taxa de Juros</label>
                                 <div class="col-sm-7">
                                     <p>
-                                        <%= tx + "%"%>
+                                        <%= df.format(tx) + "%"%>
                                     </p>
                                 </div>
                             </div>
@@ -144,13 +144,13 @@
                 <br>
             </div>
         </div>
-            <%-- Include do rodapé --%>
+        <%-- Include do rodapé --%>
 
-            <footer>
+        <footer>
 
-                <%@include file="WEB-INF/jspf/footer.jspf" %>
+            <%@include file="WEB-INF/jspf/footer.jspf" %>
 
-            </footer>
+        </footer>
 
     </body>
 </html>
