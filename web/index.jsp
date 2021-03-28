@@ -23,10 +23,12 @@
         </nav>
 
         <div>
-            <br><br><br>
+            <br><br>
             <h2 style="color: gray">Jane Fernanda Martins</h2>
             <h5 style="color: gray">RA: 1290481812013</h5>
-            <br><br><br>
+            <p>Estudante de Análise e desenvolvimento de Sistemas, 6º ciclo</p>
+            <p>Analista e desenvolvedora SAS/SQL</p>
+            <br><br>
 
         </div>
 
